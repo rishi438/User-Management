@@ -1,0 +1,4 @@
+DEBUG: 2023-08-20 10:52:27,145 - Using proactor: IocpProactor
+INFO: 2023-08-20 10:52:35,557 - on_post method called
+INFO: 2023-08-20 10:52:35,557 - Received data: {'color': 'blue12'}
+INFO: 2023-08-20 10:52:35,579 - Proper thing added: {'color': 'blue12', '_id': '64e1a31b735f772fb865a464'}
