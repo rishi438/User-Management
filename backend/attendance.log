@@ -2,3 +2,13 @@ DEBUG: 2023-08-20 10:52:27,145 - Using proactor: IocpProactor
 INFO: 2023-08-20 10:52:35,557 - on_post method called
 INFO: 2023-08-20 10:52:35,557 - Received data: {'color': 'blue12'}
 INFO: 2023-08-20 10:52:35,579 - Proper thing added: {'color': 'blue12', '_id': '64e1a31b735f772fb865a464'}
+DEBUG: 2023-08-22 17:01:03,695 - Using proactor: IocpProactor
+INFO: 2023-08-22 17:07:28,153 - on_post method called
+INFO: 2023-08-22 17:07:28,153 - Received data: {'color': 'blue12'}
+INFO: 2023-08-22 17:07:28,176 - Proper thing added: {'color': 'blue12', '_id': '64e49df8f30803da3371399f'}
+INFO: 2023-08-22 17:07:39,974 - on_post method called
+INFO: 2023-08-22 17:07:39,974 - Received data: {'color': 'blue123'}
+INFO: 2023-08-22 17:07:39,976 - Proper thing added: {'color': 'blue123', '_id': '64e49e03f30803da337139a0'}
+INFO: 2023-08-22 17:08:29,815 - on_post method called
+INFO: 2023-08-22 17:08:29,815 - Received data: {'color': 'blue1234'}
+INFO: 2023-08-22 17:08:29,816 - Proper thing added: {'color': 'blue1234', '_id': '64e49e35f30803da337139a1'}
