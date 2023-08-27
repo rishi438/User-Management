@@ -5,24 +5,23 @@
         <v-btn icon="mdi-menu" v-bind="props" class="d-md-none">
         </v-btn>
       </template>
-      <v-list offset-y="10">
-        <v-list-item v-for="(item, key) in list" :key="key" :to="{ name: key.replaceAll('-', '') }">
+      <v-list class="d-md-none">
+        <div v-for="(sm_items,key) in list" :key="key">
+        <v-list-item v-for="(item, key) in sm_items" :key="key" :to="{ name : item.route}">
           <v-list-item-title>{{ item.name }}</v-list-item-title>
         </v-list-item>
+      </div>
       </v-list>
     </v-menu>
-    <v-row no-gutters class="no-wrap d-none d-md-flex justify-md-space-around mx-3">
-      <router-link v-for="(item, key) in list" :key="key" :to="{ name: key.replaceAll('-', '') }"
-        class="d-none d-md-flex text-decoration-none title my-2 align-self-center rounded text-center">
-        <v-app-bar-title class="mx-1">
-          {{ item.name }}
-        </v-app-bar-title>
-      </router-link>
+    <v-row no-gutters class="no-wrap d-none d-md-flex mx-3">
+      <div  v-for="(item,key) in list" :key="key" class="mx-2">
+        <dropdown-hover :items="item.length>1?item:[]" :main_title="key"/>
+      </div >
     </v-row>
   </v-app-bar>
 </template>
 
-<style>
+<style scoped>
 .no-wrap {
   flex-wrap: unset !important;
 }
@@ -36,7 +35,7 @@
   font-size: small !important;
 }
 
-.main-nav .title:hover {
+.title:hover {
   color: #ffffff !important;
   background-color: #565656;
 }
@@ -47,18 +46,22 @@
 </style>
 
 <script setup>
+import DropdownHover from '@/components/DropdownHover.vue';
 const list = {
-  "Multiple-Batches": { name: "Multiple Batches" },
-  "Multiple-Courses": { name: "Multiple Courses" },
-  "Multiple-Trainers": { name: "Multiple Trainers" },
-  "Multiple-Students": { name: "Multiple Students" },
-  "View-Trainers": { name: "View Trainers" },
-  "View-All-Students": { name: "View All Students" },
-  "Search-Student": { name: "Search Student" },
-  "Change-Batch-for-Trainers": { name: "Edit Trainers Batch" },
-  "Change-Batch-for-Students": { name: "Edit Students Batch" },
-  "Instructor-Assign": { name: "Instructor Assign" },
-  "View-Attendance": { name: "View Attendance" },
-  "Logout": { name: "Home" },
+  "Upload":[{ name: "Multiple Batches",route:"MultipleBatches" },
+  { name: "Multiple Courses",route:"MultipleCourses" },
+  { name: "Multiple Trainers",route:"MultipleTrainers" },
+  { name: "Multiple Students",route:"MultipleStudents" }],
+  "View":[
+    {name: "View Trainers",route:"ViewTrainers" },
+    { name: "View All Students",route:"ViewAllStudents" },
+    { name: "View Attendance",route:"ViewAttendance" },
+  ],
+  "Edit":[
+    {name: "Edit Trainers Batch",route:"ChangeBatchforTrainers" },
+    {name: "Edit Students Batch",route:"ChangeBatchforStudents" },
+    {name: "Instructor Assign",route:"InstructorAssign" }],
+  "Search": [{name: "Search",route:"Search" }],
+  "Logout": [{name: "Logout",route:"AdminHome" }],
 };
 </script>

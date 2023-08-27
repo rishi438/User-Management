@@ -1,7 +1,7 @@
 <template>
   <AdminMain :cards="cards" :main="main" />
 </template>
-  
+
 <script setup>
 import AdminMain from '@/components/AdminMain.vue';
 const cards = {
@@ -11,13 +11,12 @@ const cards = {
   "Multiple-Students": { name: "Multiple Students" },
   "View-Trainers": { name: "View Trainers" },
   "View-All-Students": { name: "View All Students" },
-  "Search-Student": { name: "Search Student" },
+  "Search": { name: "Search" },
   "Change-Batch-for-Trainers": { name: "Change Batch for Trainers" },
   "Change-Batch-for-Students": { name: "Change Batch for Students" },
   "Instructor-Assign": { name: "Instructor Assign" },
   "View-Attendance": { name: "View Attendance" },
-  "Logout": { name: "Home" },
+  "Home": { name: "Logout" },
 };
 const main = false;
 </script>
-  

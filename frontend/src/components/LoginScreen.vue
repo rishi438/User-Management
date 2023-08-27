@@ -4,8 +4,8 @@
       <v-row justify="center" align="center">
         <v-col cols="12" sm="8" md="4">
           <v-card class="elevation-12">
-            <v-toolbar dark color="primary">
-              <v-toolbar-title>{{ login_type }} Login</v-toolbar-title>
+            <v-toolbar color="#3f3f3f">
+              <v-toolbar-title class="text-ffffff" >{{ login_type }} Login</v-toolbar-title>
             </v-toolbar>
             <v-card-text>
               <v-form>
@@ -23,13 +23,13 @@
     </v-container>
   </v-app>
 </template>
- 
-<style>
+
+<style scoped>
 .login-card {
   display: contents;
 }
 </style>
- 
+
 <script>
 export default {
   name: 'Main-Login',
@@ -39,4 +39,3 @@ export default {
   },
 };
 </script>
- 

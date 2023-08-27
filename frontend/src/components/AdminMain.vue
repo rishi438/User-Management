@@ -15,7 +15,7 @@
   </v-app>
 </template>
 
-<style>
+<style scoped>
 .v-sheet:hover{
   background-color: #cdcdcd;
 }

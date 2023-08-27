@@ -1,5 +1,5 @@
 // Composables
-import { createRouter, createWebHistory } from "vue-router";
+import {createRouter, createWebHistory} from "vue-router";
 
 const routes = [
   {
@@ -60,9 +60,9 @@ const routes = [
         component: () => import("@/views/admin/MultipleBatches.vue"),
       },
       {
-        path: "search-student",
-        name: "SearchStudent",
-        component: () => import("@/views/admin/MultipleBatches.vue"),
+        path: "search",
+        name: "Search",
+        component: () => import("@/views/admin/Search.vue"),
       },
       {
         path: "change-batch-for-trainers",
