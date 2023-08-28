@@ -1,0 +1,34 @@
+INFO: 2023-08-28 17:48:37,069 - Logging initiated
+DEBUG: 2023-08-28 17:48:37,072 - Using proactor: IocpProactor
+INFO: 2023-08-28 17:48:40,291 - request <starlette.requests.Request object at 0x000002B894B6C1D0>
+INFO: 2023-08-28 17:50:41,070 - Logging initiated
+INFO: 2023-08-28 17:54:26,384 - Logging initiated
+INFO: 2023-08-28 17:54:50,129 - Logging initiated
+INFO: 2023-08-28 17:56:34,682 - Logging initiated
+DEBUG: 2023-08-28 17:56:34,684 - Using proactor: IocpProactor
+INFO: 2023-08-28 17:56:38,163 - request <starlette.requests.Request object at 0x0000029BEA48FFD0>
+INFO: 2023-08-28 17:57:14,388 - Logging initiated
+DEBUG: 2023-08-28 17:57:14,391 - Using proactor: IocpProactor
+INFO: 2023-08-28 17:57:17,074 - Error Occured Please Contact Adminstrator'Request' object has no attribute 'data'
+INFO: 2023-08-28 17:59:26,910 - Error Occured Please Contact Adminstrator'Request' object has no attribute 'data'
+INFO: 2023-08-28 18:01:27,583 - Logging initiated
+DEBUG: 2023-08-28 18:01:27,585 - Using proactor: IocpProactor
+INFO: 2023-08-28 18:01:29,922 - Error Occured Please Contact Adminstrator'Request' object has no attribute 'raw_data'
+INFO: 2023-08-28 18:03:16,278 - Logging initiated
+DEBUG: 2023-08-28 18:03:16,280 - Using proactor: IocpProactor
+INFO: 2023-08-28 18:03:19,294 - Error Occured Please Contact Adminstrator'function' object has no attribute 'decode'
+INFO: 2023-08-28 18:04:34,650 - Logging initiated
+DEBUG: 2023-08-28 18:04:34,652 - Using proactor: IocpProactor
+INFO: 2023-08-28 18:04:38,714 - Error Occured Please Contact Adminstrator'function' object has no attribute 'decode'
+INFO: 2023-08-28 18:05:29,975 - Logging initiated
+DEBUG: 2023-08-28 18:05:29,977 - Using proactor: IocpProactor
+INFO: 2023-08-28 18:05:32,907 - Error Occured Please Contact Adminstrator'function' object has no attribute 'as_text'
+INFO: 2023-08-28 18:06:36,892 - Logging initiated
+DEBUG: 2023-08-28 18:06:36,895 - Using proactor: IocpProactor
+INFO: 2023-08-28 18:06:48,656 - Error Occured Please Contact Adminstratorthe JSON object must be str, bytes or bytearray, not coroutine
+INFO: 2023-08-28 18:08:02,685 - Logging initiated
+DEBUG: 2023-08-28 18:08:02,687 - Using proactor: IocpProactor
+INFO: 2023-08-28 18:08:04,334 - request <coroutine object Request.body at 0x00000171951E1C40>
+INFO: 2023-08-28 18:11:05,753 - Logging initiated
+DEBUG: 2023-08-28 18:11:05,755 - Using proactor: IocpProactor
+INFO: 2023-08-28 18:11:07,756 - request data {'color': 'blue1234'}

@@ -39,7 +39,10 @@ export default {
     headers: Array,
     data: Array,
     items_in_page: Number,
-    file_status:Boolean,
+    file_status: {
+      type: Boolean,
+      default: true,
+    },
     page_title: String,
     search_status: String,
   },

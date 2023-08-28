@@ -15,7 +15,7 @@
     </v-menu>
     <v-row no-gutters class="no-wrap d-none d-md-flex mx-3">
       <div  v-for="(item,key) in list" :key="key" class="mx-2">
-        <dropdown-hover :items="item.length>1?item:[]" :main_title="key"/>
+        <dropdown-hover :items="item" :main_title="key"/>
       </div >
     </v-row>
   </v-app-bar>
@@ -35,11 +35,6 @@
   font-size: small !important;
 }
 
-.title:hover {
-  color: #ffffff !important;
-  background-color: #565656;
-}
-
 .v-toolbar-title__placeholder {
   text-wrap: wrap !important;
 }
@@ -48,20 +43,29 @@
 <script setup>
 import DropdownHover from '@/components/DropdownHover.vue';
 const list = {
-  "Upload":[{ name: "Multiple Batches",route:"MultipleBatches" },
-  { name: "Multiple Courses",route:"MultipleCourses" },
-  { name: "Multiple Trainers",route:"MultipleTrainers" },
-  { name: "Multiple Students",route:"MultipleStudents" }],
+  "Upload":[
+    { name: "Multiple Batches",route:"MultipleBatches" },
+    { name: "Multiple Courses",route:"MultipleCourses" },
+    { name: "Multiple Trainers",route:"MultipleTrainers" },
+    { name: "Multiple Students",route:"MultipleStudents" }
+  ],
   "View":[
-    {name: "View Trainers",route:"ViewTrainers" },
-    { name: "View All Students",route:"ViewAllStudents" },
     { name: "View Attendance",route:"ViewAttendance" },
+    {name: "View Trainers",route:"ViewTrainers" },
+    { name: "View Students",route:"ViewStudents" },
   ],
   "Edit":[
-    {name: "Edit Trainers Batch",route:"ChangeBatchforTrainers" },
-    {name: "Edit Students Batch",route:"ChangeBatchforStudents" },
-    {name: "Instructor Assign",route:"InstructorAssign" }],
-  "Search": [{name: "Search",route:"Search" }],
-  "Logout": [{name: "Logout",route:"AdminHome" }],
+    {name: "Instructor Assign",route:"InstructorAssign" },
+    {name: "Change Trainers Batch",route:"ChangeBatchForTrainers" },
+    {name: "Change Students Batch",route:"ChangeBatchForStudents" },
+  ],
+  "Search": [
+    {name: "Search All",route:"Search" },
+    {name: "Batch Health",route:"BatchHealth" },
+    {name: "Batch Strength",route:"BatchStrength" },
+    {name: "Students Attendance",route:"StudentsAttendance" },
+    {name: "Teacher Payment",route:"TeacherPayment" },
+  ],
+  "Logout": [{name: "Logout",route:"Home" }],
 };
 </script>

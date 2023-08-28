@@ -32,57 +32,77 @@ const routes = [
       {
         path: "multiple-batches",
         name: "MultipleBatches",
-        component: () => import("@/views/admin/MultipleBatches.vue"),
+        component: () => import("@/views/admin/upload/MultipleBatches.vue"),
       },
       {
         path: "multiple-courses",
         name: "MultipleCourses",
-        component: () => import("@/views/admin/MultipleCourses.vue"),
+        component: () => import("@/views/admin/upload/MultipleCourses.vue"),
       },
       {
         path: "multiple-trainers",
         name: "MultipleTrainers",
-        component: () => import("@/views/admin/MultipleTrainers.vue"),
+        component: () => import("@/views/admin/upload/MultipleTrainers.vue"),
       },
       {
         path: "multiple-students",
         name: "MultipleStudents",
-        component: () => import("@/views/admin/MultipleStudents.vue"),
-      },
-      {
-        path: "view-trainers",
-        name: "ViewTrainers",
-        component: () => import("@/views/admin/MultipleBatches.vue"),
-      },
-      {
-        path: "view-all-students",
-        name: "ViewAllStudents",
-        component: () => import("@/views/admin/MultipleBatches.vue"),
-      },
-      {
-        path: "search",
-        name: "Search",
-        component: () => import("@/views/admin/Search.vue"),
-      },
-      {
-        path: "change-batch-for-trainers",
-        name: "ChangeBatchforTrainers",
-        component: () => import("@/views/admin/MultipleBatches.vue"),
-      },
-      {
-        path: "change-batch-for-students",
-        name: "ChangeBatchforStudents",
-        component: () => import("@/views/admin/MultipleBatches.vue"),
-      },
-      {
-        path: "instructor-assign",
-        name: "InstructorAssign",
-        component: () => import("@/views/admin/MultipleBatches.vue"),
+        component: () => import("@/views/admin/upload/MultipleStudents.vue"),
       },
       {
         path: "view-attendance",
         name: "ViewAttendance",
-        component: () => import("@/views/admin/MultipleBatches.vue"),
+        component: () => import("@/views/admin/view/ViewAttendance.vue"),
+      },
+      {
+        path: "view-trainers",
+        name: "ViewTrainers",
+        component: () => import("@/views/admin/view/ViewTrainers.vue"),
+      },
+      {
+        path: "view-students",
+        name: "ViewStudents",
+        component: () => import("@/views/admin/view/ViewStudents.vue"),
+      },
+      {
+        path: "instructor-assign",
+        name: "InstructorAssign",
+        component: () => import("@/views/admin/edit/InstructorAssign.vue"),
+      },
+      {
+        path: "change-batch-for-trainers",
+        name: "ChangeBatchForTrainers",
+        component: () => import("@/views/admin/edit/ChangeBatchForTrainers.vue"),
+      },
+      {
+        path: "change-batch-for-students",
+        name: "ChangeBatchForStudents",
+        component: () => import("@/views/admin/edit/ChangeBatchForStudents.vue"),
+      },
+      {
+        path: "search",
+        name: "Search",
+        component: () => import("@/views/admin/search/SearchAll.vue"),
+      },
+      {
+        path: "batch-health",
+        name: "BatchHealth",
+        component: () => import("@/views/admin/search/BatchHealth.vue"),
+      },
+      {
+        path: "batch-strength",
+        name: "BatchStrength",
+        component: () => import("@/views/admin/search/BatchStrength.vue"),
+      },
+      {
+        path: "students-attendance",
+        name: "StudentsAttendance",
+        component: () => import("@/views/admin/search/StudentsAttendance.vue"),
+      },
+      {
+        path: "teacher-payment",
+        name: "TeacherPayment",
+        component: () => import("@/views/admin/search/TeacherPayment.vue"),
       },
     ],
   },

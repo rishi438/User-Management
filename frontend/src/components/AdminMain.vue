@@ -5,7 +5,7 @@
       <v-container>
         <v-row>
           <v-col v-for="(card, key) in cards" :key="key" :sm=" main?6:4" cols="12">
-            <router-link :to="{ name: key?.replaceAll('-','')}" class="text-decoration-none">
+            <router-link :to="{ name: key}" class="text-decoration-none">
               <v-sheet :height="50" border rounded class="d-flex justify-center align-center elevation-3">{{card.name}}</v-sheet>
             </router-link>
           </v-col>

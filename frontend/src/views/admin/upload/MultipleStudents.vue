@@ -18,12 +18,18 @@ const navigate_route=[
         href: name,
     },
 ]
-const name = "Upload Multiple Trainers";
+const name = "Upload Multiple Students";
 const headers = [
+    { title: 'Student Id', align: 'center', key: 'student_id' },
+    { title: 'Student Name', align: 'center', key: 'student_name' },
+    { title: 'Parent Email Id', align: 'center', key: 'parent_email_id' },
+    { title: 'Parent Mobile Number', align: 'center', key: 'parent_mobile_number' },
+    { title: 'Grade', align: 'center', key: 'grade' },
+    { title: 'Product', align: 'center', key: 'product' },
     { title: 'Instructor Id', align: 'center', key: 'instructor_id' },
     { title: 'Instructor Name', align: 'center', key: 'instructor_name' },
-    { title: 'Email Id', align: 'center', key: 'email_id' },
-    { title: 'Mobile Number', align: 'center', key: 'mobile_number' },
-    { title: 'Login Name', align: 'center', key: 'login_name' },
+    { title: 'Batch Id', align: 'center', key: 'batch_id' },
+    { title: 'Batch Name', align: 'center', key: 'batch_name' },
+    { title: 'Status', align: 'center', key: 'status' },
 ];
 </script>

@@ -17,6 +17,7 @@
 <script setup>
 import Card from '@/components/Card.vue';
 import BreadCrumbNavigation from '@/components/BreadCrumbNavigation.vue';
+const name = "Search";
 const navigate_route=[
     {
         title: "home",
@@ -24,9 +25,9 @@ const navigate_route=[
         href: "home",
     },
     {
-        title: "search",
+        title: name,
         disabled: true,
-        href: "search",
+        href: name,
     },
 ]
 const search_list=["Student Name","Student Id","Batch Name","Instructor Name","Batch Status"]

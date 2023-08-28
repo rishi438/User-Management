@@ -5,8 +5,8 @@
 <script setup>
 import AdminMain from '@/components/AdminMain.vue';
 const cards = {
-  "Admin-Login": { name: "Admin Login" },
-  "Trainer-Login": { name: "Trainer Login" },
+  "AdminLogin": { name: "Admin Login" },
+  "TrainerLogin": { name: "Trainer Login" },
 };
 const main = true
 </script>

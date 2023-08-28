@@ -5,17 +5,21 @@
 <script setup>
 import AdminMain from '@/components/AdminMain.vue';
 const cards = {
-  "Multiple-Batches": { name: "Multiple Batches" },
-  "Multiple-Courses": { name: "Multiple Courses" },
-  "Multiple-Trainers": { name: "Multiple Trainers" },
-  "Multiple-Students": { name: "Multiple Students" },
-  "View-Trainers": { name: "View Trainers" },
-  "View-All-Students": { name: "View All Students" },
-  "Search": { name: "Search" },
-  "Change-Batch-for-Trainers": { name: "Change Batch for Trainers" },
-  "Change-Batch-for-Students": { name: "Change Batch for Students" },
-  "Instructor-Assign": { name: "Instructor Assign" },
-  "View-Attendance": { name: "View Attendance" },
+  "MultipleBatches": { name: "Multiple Batches" },
+  "MultipleCourses": { name: "Multiple Courses" },
+  "MultipleTrainers": { name: "Multiple Trainers" },
+  "MultipleStudents": { name: "Multiple Students" },
+  "ViewAttendance": { name: "View Attendance" },
+  "ViewTrainers": { name: "View Trainers" },
+  "ViewStudents": { name: "View Students" },
+  "InstructorAssign": { name: "Instructor Assign" },
+  "ChangeBatchForTrainers": { name: "Change Batch For Trainers" },
+  "ChangeBatchForStudents": { name: "Change Batch For Students" },
+  "Search": { name: "Search All" },
+  "BatchHealth":{name: "Batch Health"},
+  "BatchStrength":{name: "Batch Strength"},
+  "StudentsAttendance":{name: "Students Attendance"},
+  "TeacherPayment":{name: "Teacher Payment"},
   "Home": { name: "Logout" },
 };
 const main = false;

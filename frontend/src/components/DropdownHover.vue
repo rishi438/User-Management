@@ -4,7 +4,7 @@
       <template v-slot:activator="{ props }">
         <v-btn color="#fff" v-bind="props"
           class="title my-2 align-self-center rounded text-center">
-          <router-link class="text-decoration-none" v-if="items.length==0" :to="{name:main_title=='Logout'?'AdminHome':main_title}">
+          <router-link class="text-decoration-none" v-if="items.length==1" :to="{name:items[0].route}">
             <p>{{ main_title }}</p>
           </router-link>
           <div v-else>
@@ -12,7 +12,7 @@
           </div>
         </v-btn>
       </template>
-      <v-list v-if="!items.length==0">
+      <v-list v-if="items.length>1">
         <v-list-item v-for="(item, key) in items" :key="key" :to="{ name : item.route}">
           <v-list-item-title>{{ item.name }}</v-list-item-title>
         </v-list-item>
