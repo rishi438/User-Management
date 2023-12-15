@@ -32,3 +32,108 @@ INFO: 2023-08-28 18:08:04,334 - request <coroutine object Request.body at 0x0000
 INFO: 2023-08-28 18:11:05,753 - Logging initiated
 DEBUG: 2023-08-28 18:11:05,755 - Using proactor: IocpProactor
 INFO: 2023-08-28 18:11:07,756 - request data {'color': 'blue1234'}
+INFO: 2023-08-29 10:25:59,397 - Logging initiated
+DEBUG: 2023-08-29 10:25:59,453 - Using proactor: IocpProactor
+INFO: 2023-08-29 10:26:47,044 - Logging initiated
+DEBUG: 2023-08-29 10:26:47,099 - Using proactor: IocpProactor
+INFO: 2023-08-29 10:26:50,003 - request data {'color': 'blue1234'}
+INFO: 2023-08-29 10:28:10,497 - Logging initiated
+DEBUG: 2023-08-29 10:28:10,538 - Using proactor: IocpProactor
+INFO: 2023-08-29 10:28:13,878 - request data {'color': 'blue1234'}
+INFO: 2023-08-29 10:44:09,037 - request data {'color': 'blue1234'}
+INFO: 2023-08-30 14:55:18,400 - Logging initiated
+DEBUG: 2023-08-30 14:55:18,453 - Using proactor: IocpProactor
+INFO: 2023-08-30 14:57:07,900 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 14:57:07,900 - Error Occured Please Contact AdminstratorOPERATIONS.add_courses_api() missing 1 required positional argument: 'request'
+INFO: 2023-08-30 14:58:14,539 - Logging initiated
+DEBUG: 2023-08-30 14:58:14,571 - Using proactor: IocpProactor
+INFO: 2023-08-30 14:58:18,374 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 14:58:18,374 - Error Occured Please Contact AdminstratorOPERATIONS.add_courses_api() missing 1 required positional argument: 'request'
+INFO: 2023-08-30 15:00:14,605 - Logging initiated
+DEBUG: 2023-08-30 15:00:14,638 - Using proactor: IocpProactor
+INFO: 2023-08-30 15:00:26,165 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:00:26,165 - Error Occured Please Contact AdminstratorOPERATIONS.add_courses_api() got an unexpected keyword argument 'product'
+INFO: 2023-08-30 15:04:27,314 - Logging initiated
+DEBUG: 2023-08-30 15:04:27,342 - Using proactor: IocpProactor
+INFO: 2023-08-30 15:04:30,996 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:04:30,996 - Error Occured Please Contact AdminstratorOPERATIONS.add_courses_api() got an unexpected keyword argument 'product'
+INFO: 2023-08-30 15:05:19,909 - Logging initiated
+DEBUG: 2023-08-30 15:05:19,938 - Using proactor: IocpProactor
+INFO: 2023-08-30 15:05:22,197 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:05:22,197 - Error Occured Please Contact AdminstratorOPERATIONS.add_courses_api() got an unexpected keyword argument 'product'
+INFO: 2023-08-30 15:09:45,855 - Logging initiated
+DEBUG: 2023-08-30 15:09:45,883 - Using proactor: IocpProactor
+INFO: 2023-08-30 15:09:47,888 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:09:47,888 - Error Occured Please Contact AdminstratorOPERATIONS.add_courses_api() got an unexpected keyword argument 'product'
+INFO: 2023-08-30 15:15:14,407 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:15:14,407 - Error Occured Please Contact AdminstratorOPERATIONS.add_courses_api() got an unexpected keyword argument 'product'
+INFO: 2023-08-30 15:16:10,502 - Logging initiated
+DEBUG: 2023-08-30 15:16:10,537 - Using proactor: IocpProactor
+INFO: 2023-08-30 15:16:12,514 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:16:12,514 - Error Occured Please Contact AdminstratorOPERATIONS.add_courses_api() missing 1 required positional argument: 'payload'
+INFO: 2023-08-30 15:17:25,276 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:17:25,276 - Error Occured Please Contact AdminstratorOPERATIONS.add_courses_api() missing 1 required positional argument: 'payload'
+INFO: 2023-08-30 15:17:33,643 - Logging initiated
+DEBUG: 2023-08-30 15:17:33,676 - Using proactor: IocpProactor
+INFO: 2023-08-30 15:17:38,136 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:17:38,137 - Error Occured Please Contact AdminstratorOPERATIONS.add_courses_api() missing 1 required positional argument: 'self'
+INFO: 2023-08-30 15:18:39,435 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:18:39,435 - Error Occured Please Contact AdminstratorOPERATIONS.add_courses_api() missing 1 required positional argument: 'self'
+INFO: 2023-08-30 15:18:47,243 - Logging initiated
+DEBUG: 2023-08-30 15:18:47,268 - Using proactor: IocpProactor
+INFO: 2023-08-30 15:18:48,891 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:18:48,891 - API Route add_course_api
+INFO: 2023-08-30 15:18:48,891 - Adding courses to API.
+ERROR: 2023-08-30 15:18:48,891 - Error occurred when adding data to db: Unknown option database
+INFO: 2023-08-30 15:21:06,324 - Logging initiated
+DEBUG: 2023-08-30 15:21:06,351 - Using proactor: IocpProactor
+INFO: 2023-08-30 15:21:08,902 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:21:08,902 - API Route add_course_api
+INFO: 2023-08-30 15:21:08,902 - Adding courses to API.
+ERROR: 2023-08-30 15:21:08,913 - Error occurred when adding data to db: 'Database' object is not callable
+INFO: 2023-08-30 15:26:18,610 - Logging initiated
+DEBUG: 2023-08-30 15:26:18,644 - Using proactor: IocpProactor
+INFO: 2023-08-30 15:26:20,156 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:26:20,157 - API Route add_course_api
+INFO: 2023-08-30 15:26:20,157 - Adding courses to API.
+INFO: 2023-08-30 15:26:20,163 - Checking if Attendance_db database exists.
+INFO: 2023-08-30 15:26:20,163 - Attendance_db database exists.
+ERROR: 2023-08-30 15:26:20,163 - Error occurred when adding data to db: 'Database' object is not callable
+INFO: 2023-08-30 15:26:34,618 - Logging initiated
+DEBUG: 2023-08-30 15:26:34,644 - Using proactor: IocpProactor
+INFO: 2023-08-30 15:26:37,702 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:26:37,702 - API Route add_course_api
+INFO: 2023-08-30 15:26:37,702 - Adding courses to API.
+INFO: 2023-08-30 15:26:37,709 - Checking if Attendance_db database exists.
+INFO: 2023-08-30 15:26:37,709 - Attendance_db database exists.
+ERROR: 2023-08-30 15:26:37,709 - Error occurred when adding data to db: 'Database' object is not callable
+INFO: 2023-08-30 15:28:07,701 - Logging initiated
+DEBUG: 2023-08-30 15:28:07,733 - Using proactor: IocpProactor
+INFO: 2023-08-30 15:28:10,135 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:28:10,135 - API Route add_course_api
+INFO: 2023-08-30 15:28:10,136 - Adding courses to API.
+INFO: 2023-08-30 15:28:10,141 - Checking if Attendance_db database exists.
+INFO: 2023-08-30 15:28:10,141 - Attendance_db database exists.
+ERROR: 2023-08-30 15:28:10,141 - Error occurred when adding data to db: 'Database' object is not callable
+INFO: 2023-08-30 15:32:15,628 - Logging initiated
+DEBUG: 2023-08-30 15:32:15,662 - Using proactor: IocpProactor
+INFO: 2023-08-30 15:32:17,611 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:32:17,611 - API Route add_course_api
+INFO: 2023-08-30 15:32:17,611 - Adding courses to API.
+INFO: 2023-08-30 15:32:17,616 - Checking if Attendance_db database exists.
+INFO: 2023-08-30 15:32:17,617 - Attendance_db database exists.
+ERROR: 2023-08-30 15:32:17,617 - Error occurred when adding data to db: 'Database' object is not callable
+INFO: 2023-08-30 15:35:31,410 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:35:31,410 - API Route add_course_api
+INFO: 2023-08-30 15:35:31,410 - Adding courses to API.
+INFO: 2023-08-30 15:35:31,414 - Checking if Attendance_db database exists.
+INFO: 2023-08-30 15:35:31,414 - Attendance_db database exists.
+ERROR: 2023-08-30 15:35:31,414 - Error occurred when adding data to db: 'Database' object is not callable
+INFO: 2023-08-30 15:35:44,362 - Logging initiated
+DEBUG: 2023-08-30 15:35:44,388 - Using proactor: IocpProactor
+INFO: 2023-08-30 15:35:46,642 - request data {'product': 'HOTS', 'skill': 'Module-1'}
+INFO: 2023-08-30 15:35:46,642 - API Route add_course_api
+INFO: 2023-08-30 15:35:46,642 - Adding courses to API.
+INFO: 2023-08-30 15:35:46,647 - Checking if Attendance_db database exists.
+INFO: 2023-08-30 15:35:46,648 - Attendance_db database exists.
+ERROR: 2023-08-30 15:35:46,656 - Error occurred when adding data to db: db already exists with different case already have: [attendance_db] trying to create [Attendance_db], full error: {'index': 0, 'code': 13297, 'errmsg': 'db already exists with different case already have: [attendance_db] trying to create [Attendance_db]'}
