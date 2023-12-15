@@ -1,0 +1,30 @@
+{
+    // http://eslint.org/docs/rules/
+    "extends": "eslint:recommended",
+    // "extends": "eslint:all", // FIXME
+    "rules": {
+        "no-useless-escape": ["warn"],
+        "max-len": [
+            "error",
+            {
+                "code": 200
+            }
+        ]
+    },
+    "parserOptions": {
+        "ecmaVersion": 2019
+    },
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "jquery": true
+    },
+    "globals": {
+        "liquidjs": true,
+        "Dropzone": true,
+        "_": true,
+        "WizTable": true
+    },
+    "ignorePatterns": ["**/vendor/*.js", "**/bootstrap/js/*.js", "**/jquery/*.js", "**/jquery-ui/*.js", "**/blockly/*.js", "**/cropper/*.js", "obfuscate-code.js"]
+}
