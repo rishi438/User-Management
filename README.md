@@ -1,6 +1,6 @@
 # Attendance
 
-### This is an Attendance Application Management System
+### This is an Attendance Management System Web Application 
 
 Tech Stack FASTAPI, Vue.js, Tailwind.
 
