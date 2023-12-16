@@ -5,3 +5,5 @@
 Using Tech Stack FastAPI, Vue.js, Tailwind.
 
 /# Under Development #/
+
+respective Readme.md is included frontend and backend application. Can go through it.
