@@ -1,7 +1,10 @@
 # Setup
 
-[[Install python]] 
+# Install {{Python}} 
 1. Create a virtual environment:
+```
+python -m venv c:\path\to\<venv name>
+```    
 2. Activate the virtual environment:
 - For Windows CMD:
   ```
