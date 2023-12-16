@@ -1,4 +1,5 @@
 # Setup
+Python 3.10.9 {{pip 23.3.1}}
 
 # Installation 
 1. Create a virtual environment:
