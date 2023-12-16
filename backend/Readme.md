@@ -1,7 +1,22 @@
 # Setup
 
-[[Install python]] --> python -m venv c:\path\to\<venv name> 
-                   --> {{C:\> <venv>\Scripts\activate.bat --> Windows  CMD}} or {{C:\> <venv>\Scripts\Activate.ps1 --> Windows  Powershell}}
-                   --> pip install -r requirements.txt
+[[Install python]] 
+1. Create a virtual environment:
+2. Activate the virtual environment:
+- For Windows CMD:
+  ```
+  C:\> <venv>\Scripts\activate.bat
+  ```
+- For Windows Powershell:
+  ```
+  C:\> <venv>\Scripts\Activate.ps1
+  ```
+3. Install project dependencies:
+```
+pip install -r requirements.txt
+```
 
-Run FastAPI --> uvicorn main:app --reload
+Running Application
+```
+ uvicorn main:app --reload
+```
