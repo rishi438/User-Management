@@ -1,6 +1,6 @@
-# Attendance
+# Web Application
 
-### This is an Attendance Management System Web Application 
+### This is an Web application Basic User Management
 
 Using Tech Stack FastAPI, Vue.js, Tailwind.
 
