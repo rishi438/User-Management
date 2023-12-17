@@ -1,6 +1,6 @@
 # Web Application
 
-### This is an Web application Basic User Management
+### This is an Web application User Management
 
 Using Tech Stack FastAPI, Vue.js, Tailwind.
 
